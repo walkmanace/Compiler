@@ -1,0 +1,13 @@
+int a = 3;
+bool keep_running = true;
+
+while (keep_running && a > 0) {
+    if (a != 2) {
+        print(a);
+    } else {
+        print(99);
+    }
+
+    a = a - 1;
+    keep_running = a >= 0;
+}

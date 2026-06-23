@@ -1,0 +1,12 @@
+int a = 1;
+int a = 2;
+
+bool ok = true;
+b = a + 1;
+
+int c = false;
+ok = 3;
+
+if (a) {
+    print(a);
+}
